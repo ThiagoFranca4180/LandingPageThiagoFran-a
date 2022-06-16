@@ -4,11 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Thiago França</title>
+    <script src="https://kit.fontawesome.com/049db1fee8.js" crossorigin="anonymous"></script>
+    <title>Landing Page-Thiago França</title>
     <link  href="style.css" rel="stylesheet">
 
 </head>
 <body>
-    
+    <div class="container">
+        <aside class="sidenav">
+            <div class="sidenav-content">
+                <button onclick="closeNav()" class="side-nav-button">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+                <div class="side-nav-content-image">
+                    <img class="side-nav-foto" src="Foto.jpeg" >
+                </div>
+                <nav class="side-nav-content-menu">
+                    <div class="sidenav-content-menu-hidden">
+                        <a class="icon-white" href="#"><i class="fas fa-lg fa-user-alt"></i></a>
+                        <br>
+                        <br>
+                        <a class="icon-white" href="#"><i class="fas fa-lg fa-briefcase"></i></a>
+                        <br>
+                        <br>
+                        <a class="icon-white"><i class="fas fa-lg fa-book-open"></i></a>
+                       
+                </div>
+                <a class="side-nav-content-menu-selected" href="#">Sobre</a>
+                <br>
+                <a class="side-nav-content-menu-item" href="#">Meus Projetos</a>
+                <br>
+                <a class="side-nav-content-menu-item" href="">Formação</a>
+                <br>
+                </nav>
+            
+            </div>
+        </aside>
+        <main class="main">
+            <Button onclick="openNav()" class="side-nav-open-icon">
+                <i class="fa-solid fa-bars"></i>
+            </Button>
+            <h1 class="main-description-title">Thiago José Oliveira França</h1>
+            <h3 class="main-description-subtitle">Metrologista/Estudante em Análise e desenvolvimento de sistemas</h3>
+            <br>
+            <p class="main-description-paragraph">Eu Sou Thiago José Oliveira França, tenho 28 anos, e meu propósito é ingressar de vez na carreira de tecnologia através da programação. A tecnologia sempre esteve presente em minha vida pela da minha formação profissional e curiosidade pessoal. Devido minha vivência de indústria desenvolvi a habilidade de comunicação e aprimorei meu trabalho em equipe e quero levar isso comigo para essa nova etapa da minha vida profissional.  </p>
+            <br>
+            <a class="social-media-icon" href="https://www.linkedin.com/in/thiago-fran%C3%A7a-aa63b6237"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="social-media-icon" href="https://www.instagram.com/invites/contact/?i=131tcud2rpjhs&utm_content=e8c7gx3"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social-media-icon" href="https://contate.me/ThiagoDevBeginn"><i class="fa-brands fa-whatsapp"></i></a>
+        </main>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sidenav").style.display = "block";
+          }
+          
+        function closeNav() {
+            document.getElementById("sidenav").style.display = "none";
+          }
+          </script>
 </body>
 </html>

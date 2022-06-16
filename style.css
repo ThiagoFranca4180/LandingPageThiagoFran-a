@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+body, html{
+    height: 100%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+/* configurações referente ao side nav*/
+
+.sidenav{
+    position: relative;
+    background: #1E90FF;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.sidenav-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.side-nav-content-image{
+    text-align: center;
+}
+
+.side-nav-foto{
+    width: 80%;
+    border: 10px solid #399bfa ;
+    border-radius: 50%; 
+}
+
+.side-nav-content-menu{
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+
+}
+
+.side-nav-content-menu-item{
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.side-nav-content-menu-selected{
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+}
+
+.side-nav-button{
+    text-align: left;
+    margin: 5px 20px;
+    border: none;
+    background: none;
+    width: 70px;
+    height: 70px;
+    color: white;
+    font-size: x-large;
+}
+
+.side-nav-open-icon{
+
+        padding: 0px 10px;
+        border: none;
+        background: none;
+        color: #1E90FF;
+        width: 50px;
+        height: 50px;
+        font-size: x-large;
+
+}
+
+/*texto do meio da pagina*/
+
+.main{
+
+    position: relative;
+    background: white;
+    transform: translateY(-10%) ;
+    padding: 40px;
+    display: block;
+    margin: auto;
+}
+
+
+.main-description-title{
+    color: #343a40 ;
+    font-size: 36px;
+
+}
+
+.main-description-subtitle{
+
+    color: #6c757d;
+    font-size: 26px;
+}
+
+.main-description-paragraph{
+
+    color: #343a40;
+    font-size: 24px;
+}
+    
+.social-media-icon{
+    color: #1E90FF;
+    background-color: none;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sidenav-content-menu-hidden {
+    display: none;
+}
+
+.icon-white {
+    color: #fff
+}
